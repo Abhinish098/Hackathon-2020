@@ -8,7 +8,7 @@
 
     <meta charset="utf-8" />
 
-    <title>Connect</title>
+    <title>Sign up</title>
     <link rel="shortcut icon" href="Logo.png" type="image/x-icon" />
 
     <!-- Links to CSS -->
@@ -34,7 +34,13 @@
       }
       /* Handle on hover */
       ::-webkit-scrollbar-thumb:hover {
-         background: ##77D9A0; 
+         background: #77D9A0; 
+      }
+      form{
+        color: whitesmoke;
+      }
+      button{
+        background-color:  #77D9A0;
       }
     </style>
 
@@ -49,9 +55,87 @@
           </div>
     </header>
      <div class="card bg-dark text-white">
-        <h5 class="card-title">Sign Up form/h5>
+        <h5 class="card-title">Sign Up form</h5>
         <p class="card-text">SIGN IN</p>
       </div>
     </div>
+    <div>
+      <form method="POST">
+        
+        <center>
+        <h1><b><u><legend>Signup form </legend></u></b></h1>    
+        
+        <div>
+            <label for="select">Select profile : </label><br>
+            <label for="Teacher">Teacher</label>
+            <input type="radio" name="select" id="Teacher" value="Teacher">
+            <label for="Student">Student</label>
+            <input type="radio" name="Student" id="Student" value="Student">
+        </div>
+        <br>
+        <div>
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter name" required>
+        </div>
+        <br>
+        <div>
+            <label for="id_no">Identification no:</label>
+            <input type="number" name="id_no" id="id_no" class="form-control" placeholder="Enter your identification number" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Username : </label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter username" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" class="form-control" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Github id : </label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="If any">
+        </div>
+        <br>
+        <div>
+            <label for="email">LinkedIn id: </label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="If any">
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <button class="btn-outline-success" type="submit">Sign in</button>
+    </center>
+    
+    </form>
+    </div>
+    
+      <!-- Footer -->
+      <span class="footernote">
+        <footer id="footer-part">
+         <div class="footer-copyright pt-10 pb-25">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-8">
+                         <div class="copyright text-md-left text-center pt-15">
+                             <p>&copy; Copyrights 2020 DotShots All rights reserved. </p>
+                         </div>
+                     </div>
+                     <div class="col-md-4">
+                         <div class="copyright text-md-right text-center pt-15">
+                             <p>Designed by <span>DotShots</span> </p>
+                         </div>
+                     </div>
+                 </div> <!-- row -->
+             </div> <!-- container -->
+         </div> <!-- footer copyright -->
+        </footer>
+       </span>
+       <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
   </body>
 </html>
