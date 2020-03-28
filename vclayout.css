@@ -1,0 +1,39 @@
+
+* {
+  box-sizing: border-box;
+}
+#btn1{
+    padding: 30px;
+    font-size: 30px;
+}
+#btn2{
+    padding: 30px;
+    font-size: 30px;
+}
+#btn3{
+    padding: 30px;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+.sidenav{
+    padding-bottom:50px;
+}
+.column {
+    float: left;
+}
+.left {
+    width: 15%;
+}
+.right {
+    width: 85%;
+}
+#toptext{
+    background-color:#05386B;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+}
