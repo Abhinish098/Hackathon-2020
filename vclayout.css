@@ -30,7 +30,9 @@ a{
     width: 85%;
 }
 #toptext{
-    background-color:#05386B;
+
+    background-color:transparent;
+    -webkit-text-stroke: 1px black;	
     font-weight: bold;
     color: aliceblue;
     padding: 10px;
