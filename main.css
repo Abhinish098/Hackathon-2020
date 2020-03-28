@@ -3,7 +3,7 @@ body {
 }
 .header {
     overflow: hidden;
-    background-color: #001a00;
+    background-color: #000000;
     padding: 15px 10px;
 }
 
@@ -27,13 +27,13 @@ body {
 
         /* Change the background color on mouse-over */
         .header a:hover {
-            background-color: #71c802;
+            background-color: #7DE3C4;
             color: white;
         }
 
         /* Style the active/current link*/
         .header a.active {
-            background-color: #71c802;
+            background-color: #77D9A0;
             color: white;
         }
 
@@ -120,7 +120,7 @@ body {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
-    background-color: #001a00;
+    background-color: #000000;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin-bottom: .5rem;
@@ -133,4 +133,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: .5rem;
     color: aliceblue;
+}
+
+.jumbotron {
+    background-color: #B3DAE8;
+    border-radius: 0rem;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #77D9A0;
+    border-color: #77D9A0;
 }
