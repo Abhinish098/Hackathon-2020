@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url("bgchatroom.jpg");
+  }
+
+  #message-container {
+    font-size: 20px;
+    color: whitesmoke;
+    width: 90%;
+    max-width: 1200px;
+    background:transparent;
+    font-weight: 300;
+  }
+
+  #message-container div {
+    padding: 5px;
+    
+  }
+
+  #message-container div:nth-child(2n) {
+    font-size: 20px;
+    font-weight: 300;
+    background: rgba(255,255,255,0.5);
+    color: black;
+    
+  }
+
+  #send-container {
+    position: fixed;
+    padding-bottom: 30px;
+    bottom: 0;
+    background-color:transparent;
+    max-width: 1200px;
+    width: 80%;
+    display: flex;
+    
+  }
+
+  #message-input {
+    flex-grow: 1;
+  }
