@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="vclayout.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
@@ -45,11 +46,15 @@
           <div class="header">
             <img src="Logo.png" alt="LOGO">
             <div class="header-right">
+              <a class="active" href="Home.html">Home</a>  
+              <a href="About.html">About</a>
+              <a href="vclayout.html">Video/Chat</a>
+              <a href="Signin.html">Sign In</a>
+              <a href="Signup.html">Login/Signup</a>
               <a class="active" href="#home">Home</a>  
               <a href="#about">About</a>
-              <a href="#about">Video/Chat</a>
-              <button type="button" class="btn btn-outline-success">Sign Up</button>
-              <button type="button" class="btn btn-outline-success">Sign In</button>  
+              <a href="chatroom.html">Chat</a>
+              
             </div>
           </div>
       </header>
@@ -65,7 +70,7 @@
                       <a href="#">
                       <img src="Images\Web.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <a href="#" class="btn btn-outline-success">Wesite Developers</a>
+                        <a href="medio.html" class="btn btn-outline-success">Wesite Developers</a>
                       </div>
                     </div>
                     <br>
@@ -73,7 +78,7 @@
                       <a href="#">
                       <img src="Images\App.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <a href="#" class="btn btn-outline-success">Application Developers</a>
+                        <a href="medio.html" class="btn btn-outline-success">Application Developers</a>
                       </div>
                     </div>
                     <br>
@@ -81,7 +86,7 @@
                       <a href="#">
                       <img src="Images\GD.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <a href="#" class="btn btn-outline-success">Graphic Designers</a>
+                        <a href="medio.html" class="btn btn-outline-success">Graphic Designers</a>
                       </div>
                     </div>
                     <br>
@@ -89,7 +94,7 @@
                       <a href="#">
                       <img src="Images\ML.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <a href="#" class="btn btn-outline-success">Machine Learning Engineers</a>
+                        <a href="medio.html" class="btn btn-outline-success">Machine Learning Engineers</a>
                       </div>
                     </div>
                     <br>
@@ -97,14 +102,14 @@
                       <a href="#">
                       <img src="Images\AI.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <a href="#" class="btn btn-outline-success">Artificial Intelligence Engineers</a>
+                        <a href="medio.html" class="btn btn-outline-success">Artificial Intelligence Engineers</a>
                       </div>
                     </div> 
                     <div class="card" style="width: 15rem;">
                       <a href="#">
                       <img src="Images\Content.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <a href="#" class="btn btn-outline-success">Content Writer</a>
+                        <a href="medio.html" class="btn btn-outline-success">Content Writer</a>
                       </div>
                     </div>
                     <br>
@@ -113,9 +118,18 @@
               </div>
             </div>
             <div class="col-sm-9">
-                <div class="card">
+              <div id="toptext"><p>Video Chat Layout</p></div>
+              <div class=row>
+              <div class="sidenav column left">
+                  <div id="btn1"><a href="https://www.bing.com/" target="main_frame">Button1</a></div>
+                  <div id="btn2"><a href="https://openai.com/" target="main_frame">Button2</a></div>
+                  <div id="btn3"><a href="https://waymo.com/" target="main_frame">Button3</a></div>
+              </div>
+              <iframe class="column right" id="mainframe" src="https://www.youtube.com/embed/kopoLzvh5jY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="500px" width="100%" name="main_frame" scrolling="yes"></iframe>
+              </div>
+               <!-- <div class="card">
                   <div class="card-body">
-
+                -->
                   </div>
                 </div>
             </div>
