@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="vclayout.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
@@ -77,10 +78,14 @@
               </div>
             </div>
             <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-
-                  </div>
+              <div id="toptext"><p>Video Chat Layout</p></div>
+              <div class=row>
+              <div class="sidenav column left">
+                  <div id="btn1"><a href="https://www.bing.com/" target="main_frame">Button1</a></div>
+                  <div id="btn2"><a href="https://openai.com/" target="main_frame">Button2</a></div>
+                  <div id="btn3"><a href="https://waymo.com/" target="main_frame">Button3</a></div>
+              </div>
+              <iframe class="column right" id="mainframe" src="https://www.youtube.com/embed/kopoLzvh5jY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="500px" width="100%" name="main_frame" scrolling="yes"></iframe>
                 </div>
             </div>
         </div>
