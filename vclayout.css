@@ -3,14 +3,17 @@
   box-sizing: border-box;
 }
 #btn1{
+    float: left;
     padding: 30px;
     font-size: 30px;
 }
 #btn2{
+    float: left;
     padding: 30px;
     font-size: 30px;
 }
 #btn3{
+    float: left;
     padding: 30px;
     font-size: 30px;
 }
@@ -18,16 +21,17 @@ a{
     text-decoration: none;
 }
 .sidenav{
-    padding-bottom:50px;
+    padding-bottom:20px;
 }
 .column {
-    float: left;
+    position: relative;
 }
 .left {
-    width: 15%;
+    width: 100%;
 }
 .right {
-    width: 85%;
+    
+    width: 100%%;
 }
 #toptext{
 
